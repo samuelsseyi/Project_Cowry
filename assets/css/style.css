@@ -1,0 +1,45 @@
+:root {
+  /* Primary Colors */
+  --primary-blue: #0067f5;
+  --secondary-blue: #0a2e65;
+  
+  /* Pastel Colors */
+  --blue-t4: #e1f6ff;
+  --backdrop-gray: #f5f6fa;
+  
+  /* Text Colors */
+  --text-primary: #0a2e65;
+}
+
+/* Header Styles */
+.bg-backdrop-gray {
+  background-color: var(--backdrop-gray) !important;
+}
+
+.nav-link {
+  color: var(--text-primary) !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--primary-blue) !important;
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 0.5rem;
+}
+
+.btn-primary {
+  background-color: var(--primary-blue) !important;
+  border-color: var(--primary-blue) !important;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0a2e65 !important;
+  border-color: #0a2e65 !important;
+}
